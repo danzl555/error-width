@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../../public/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Allura';
+  src: url('../../../public/assets/fonts/Allura-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+  --primary-red-color: rgb(255, 70, 70);
+  --primary-red-opacity-color: rgba(255, 70, 70, 0.1);
+  --dark-color: rgb(24, 28, 41);
+  --static-white-color: rgb(255, 255, 255);
+  --static-white-min-opacity-color: rgba(255, 255, 255, 0.4);
+  --static-white-max-opacity-color: rgba(255, 255, 255, 0.2);
+  --tag-purple-color: rgb(67, 97, 255);
+  --tag-pink-color: rgb(255, 67, 247);
+  --tag-green-color: rgb(6, 164, 79);
+  --content-background-color: rgb(236, 243, 248);
+  --overlay-color: rgba(24, 28, 41, 0.8);
+}

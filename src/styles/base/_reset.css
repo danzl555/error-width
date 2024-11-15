@@ -1,0 +1,50 @@
+@import '../base/_variables.css';
+
+/* Обнуляющие стили */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  display: block;
+  left: 0;
+  right: 0;
+  max-width: 1440px;
+  height: 100%;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: 'Montserrat', sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+img,
+picture,
+video,
+canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}

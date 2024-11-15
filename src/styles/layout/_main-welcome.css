@@ -1,0 +1,83 @@
+@import '../base/_variables.css';
+
+main {
+    width: 1440px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--static-white-color);
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px 20px 0 0;
+    background-color: var(--primary-red-color);
+    background-image: url(../../../public/assets/images/bg-ball\ 1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 90px 8px;
+    border-top-left-radius: 20px;
+}
+
+.section-image {
+    width: 100%;
+}
+
+.section-content {
+    max-width: 426px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 70px 0px;
+}
+
+/* Text Styles */
+.small-text {
+    font-size: 24px;
+    font-family: 'Allura', sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 1;
+}
+
+.large-text {
+    width: 426px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: 5.76px;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.red-text {
+    color: rgba(255, 70, 70, 1);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* Call-to-action Button */
+.cta-button {
+    padding: 20px 32px;
+    background-color: rgba(24, 28, 41, 1);
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-button p {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: white;
+}
+

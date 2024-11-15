@@ -1,0 +1,69 @@
+@import '../base/_variables.css';
+
+.container {
+    width: 1440px;
+    padding: 0 82px;
+    background-color: var(--static-white-color);
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 600;
+}
+
+.navbar {
+    width: 100%;
+    padding: 12px 0;
+    background-color: var(--static-white-color);
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    padding: 8px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.logo-text {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 1.3;
+    color: var(--dark-color);
+    text-transform: uppercase;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.menu-item {
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    line-height: 1.3;
+    color: var(--dark-color);
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}

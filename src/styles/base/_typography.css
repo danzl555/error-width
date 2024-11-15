@@ -1,0 +1,4 @@
+
+/* Стили для текста, заголовков */
+body { font-size: var(--font-size-base); color: #333; }
+h1, h2, h3, h4, h5, h6 { margin-bottom: 1rem; font-weight: bold; }
